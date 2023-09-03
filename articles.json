@@ -1,0 +1,26 @@
+[
+    {
+        "image": "./images/image-currency.jpg",
+        "name": "By Claire Robinson",
+        "heading": "Receive money in any currency with no fees",
+        "p": "The world is getting smaller and we're becoming more mobile. So why should you be forced to only receive money in a single..."
+    },
+    {
+        "image": "./images/image-restaurant.jpg",
+        "name": "By Wilson Hutton",
+        "heading": "Treat yourself without worrying about money",
+        "p": "Our simple budgeting feature allows you to seperate out your spending and set realistic limits each month. That means you..."
+    },
+    {
+        "image": "./images/image-plane.jpg",
+        "name": "By Wilson Hutton",
+        "heading": "Take your Easybank card wherever you go",
+        "p": "We want you to enjoy your travels. This is why we son't charge any fees on purchases while you're abroad. We'll even show you..."
+    },
+    {
+        "image": "./images/image-confetti.jpg",
+        "name": "By Claire Robinson",
+        "heading": "Our invite-only Beta accounts are now live!",
+        "p": "The world is getting smaller and we're becoming more mobile. So why should you be forced to only receive money in a single..."
+    }
+]

@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav ul li a {
+  @apply hover:cursor-pointer hover:text-dkBlue relative md:hover:before:content-[''] md:hover:before:w-full md:hover:before:absolute md:hover:before:border-b-4 md:hover:before:border-transparent md:hover:before:bg-gradient-to-r from-limegreen to-brightCyan md:hover:before:-bottom-8 md:hover:before:bg-origin-border;
+}
+
+footer ul li a {
+  @apply hover:cursor-pointer hover:text-limegreen;
+}

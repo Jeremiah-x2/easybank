@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header
+      class="flex justify-between md:justify-around relative z-20 items-center p-6 bg-white"
+    >
+      <img src="./images/logo.svg" alt="" class="" />
+      <nav>
+        <img
+          src="./images/icon-hamburger.svg"
+          alt=""
+          class="md:hidden hover:cursor-pointer"
+          id="hamburger"
+        />
+        <ul
+          class="hidden absolute w-[95%] top-20 text-center space-y-4 py-8 rounded-lg bg-white md:bg-transparent left-1/2 -translate-x-1/2 z-10 md:flex md:relative md:top-0 md:space-y-0 md:py-0 md:rounded-none md:shadow-none gap-4 font-bold text-grayishBlue shadow-[0_70px_70px_60px_rgba(0,0,0,0.5)]"
+          id="menu"
+        >
+          <li><a href="#" class="">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </nav>
+      <button
+        class="hidden md:block bg-gradient-to-r from-limegreen to-brightCyan px-8 py-2 rounded-full text-white font-bold hover:blur-[0.75px]"
+      >
+        Request Invite
+      </button>
+    </header>
+
+    <div
+      class="relative bg-vlthGray overflow-hidden bg-[url('./images/bg-intro-mobile.svg')] bg-no-repeat bg-contain md:bg-[url('./images/bg-intro-desktop.svg')] md:bg-[top_-15rem_right_-30rem] pt-96 md:pt-0"
+    >
+      <div class="">
+        <img
+          src="./images/image-mockups.png"
+          alt=""
+          class="absolute -top-28 w-full max-w-md md:-right-16 md:-top-16"
+        />
+        <div
+          class="text-center md:text-left md:w-1/3 md:mr-20 md:my-20 md:ml-28 px-8 mb-20"
+        >
+          <h1 class="text-4xl md:text-5xl text-dkBlue mb-4">
+            Next generation digital banking
+          </h1>
+          <p class="text-grayishBlue mb-8">
+            Take your financial life online. Your Easybank account will be a
+            one-stop-shop for spending, saving, budgeting, investing, and much
+            more.
+          </p>
+          <button
+            class="bg-gradient-to-r from-limegreen to-brightCyan px-8 py-2 rounded-full text-white font-bold hover:blur-[0.75px]"
+          >
+            Request Invite
+          </button>
+        </div>
+      </div>
+      <!-- </div> -->
+
+      <div
+        class="text-center md:text-start px-5 md:px-16 bg-lthGrayishBlue text-grayishBlue py-16"
+      >
+        <div class="mb-8 sm:px-24 md:px-0">
+          <h2 class="text-dkBlue text-4xl mb-4">Why choose Easybank?</h2>
+          <p class="md:w-1/2">
+            We leverage Open Banking to turn your bank account into your
+            financial hub. Control your finances like never before.
+          </p>
+        </div>
+        <div
+          id="reasons"
+          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 md:gap-6"
+        ></div>
+      </div>
+    </div>
+
+    <div class="bg-vlthGray px-5">
+      <h4>Latest Articles</h4>
+      <div
+        id="articles"
+        class="grid sm:grid-cols-2 md:grid-cols-4 gap-8 md:gap-4"
+      ></div>
+    </div>
+
+    <footer
+      class="bg-dkBlue py-12 text-center md:text-left flex flex-col gap-8 md:flex-row md:justify-between md:px-32"
+    >
+      <div class="flex justify-center gap-8 flex-col items-center">
+        <img src="./images/logocopy.svg" alt="Logo" class="" />
+        <div class="flex gap-4">
+          <img
+            src="./images/icon-facebook.svg"
+            class="hover:fill-limegreen"
+            alt="facebook"
+          />
+          <img
+            src="./images/icon-youtube.svg"
+            class="hover:fill-limegreen"
+            alt="youtube"
+          />
+          <img
+            src="./images/icon-twitter.svg"
+            class="hover:fill-limegreen"
+            alt="twitter"
+          />
+          <img
+            src="./images/icon-pinterest.svg"
+            class="hover:fill-limegreen"
+            alt="pinterest"
+          />
+          <img
+            src="./images/icon-instagram.svg"
+            class="hover:fill-limegreen"
+            alt="instagram"
+          />
+        </div>
+      </div>
+      <div class="text-vlthGray flex flex-col gap-4 md:flex-row md:gap-20">
+        <ul class="flex flex-col gap-4">
+          <li><a href="#" class="">About Us</a></li>
+          <li><a href="#" class="">Contact</a></li>
+          <li><a href="#" class="">Blog</a></li>
+        </ul>
+        <ul class="flex flex-col gap-4">
+          <li><a href="#" class="">Careers</a></li>
+          <li><a href="#" class="">Support</a></li>
+
+          <li>
+            <a href="#" class="">Privacy Policy</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="flex flex-col gap-8 items-center md:text-right">
+        <button
+          class="bg-gradient-to-r from-limegreen to-brightCyan px-8 py-2 rounded-full text-white font-bold hover:blur-[0.75px]"
+        >
+          Request Invite
+        </button>
+        <cite class="text-grayishBlue">c Easybank. All Rights Reserved</cite>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
