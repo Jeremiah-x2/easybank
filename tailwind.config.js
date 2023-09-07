@@ -2,6 +2,10 @@
 module.exports = {
   content: ["./**/*.{html,js}"],
   theme: {
+    fontFamily: {
+      impact: ["Impact"],
+      lls: ["'Public Sans'", "sans-serif"],
+    },
     extend: {
       colors: {
         dkBlue: "hsl(233, 26%, 24%)",

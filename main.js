@@ -40,7 +40,7 @@ async function showArticles() {
         </div>
         <div class="px-6 pt-6 pb-10 flex flex-col gap-2">
           <p class="text-xs text-grayishBlue">${name}</p>
-          <h3 class="text-xl text-dkBlue hover:text-limegreen hover:cursor-pointer">${heading}</h3>
+          <h3 class="text-xl text-dkBlue hover:text-limegreen hover:cursor-pointer font-normal">${heading}</h3>
           <p class="text-sm text-grayishBlue">${p}</p>
         </div>
       </div>
